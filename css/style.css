@@ -1,0 +1,54 @@
+/* navbar */
+
+ *{
+    background-color: rgb(245, 240, 240);
+ }
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.nav-link .active .text-danger{
+    color: rgb(250,86,82);
+    position: absolute;
+}
+
+
+.active ::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -8px;
+    border-radius: 50%;
+    background: red;
+
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.card{
+    display: flex;
+   
+   height: 600px;
+   
+    align-items: stretch;
+
+  
+}
+
+
+.imgcenter{
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+}
+
+
+.cards{
+    padding: 60px;
+    
+}
